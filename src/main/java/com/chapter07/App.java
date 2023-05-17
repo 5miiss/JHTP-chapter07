@@ -1,5 +1,7 @@
 package com.chapter07;
 
+import com.chapter07.ArraysManipulation.Arr;
+import com.chapter07.ArraysManipulation.Table;
 import com.chapter07.cards.DeckOfCards;
 import com.chapter07.grades.Grades;
 import com.chapter07.grades.GradesArr;
@@ -38,23 +40,29 @@ public class App
         // String res = test1.mergeAlternately("abc", "pqr");
         // System.out.println(res);
 
-        int[][] gradesArray = {{87, 96, 70},
-        {68, 87, 90},
-        {94, 100, 90},
-        {100, 81, 82},
-        {83, 65, 85},
-        {78, 87, 65},
-        {85, 75, 83},
-        {91, 94, 100},
-        {76, 72, 84},
-        {87, 93, 73}};
+        // int[][] gradesArray = {{87, 96, 70},
+        // {68, 87, 90},
+        // {94, 100, 90},
+        // {100, 81, 82},
+        // {83, 65, 85},
+        // {78, 87, 65},
+        // {85, 75, 83},
+        // {91, 94, 100},
+        // {76, 72, 84},
+        // {87, 93, 73}};
 
-        GradesArr gradesArr = new GradesArr(gradesArray, "java");
-        printArr(gradesArr.getMax());
-        printArr(gradesArr.getMin());
+        // GradesArr gradesArr = new GradesArr(gradesArray, "java");
+        // printArr(gradesArr.getMax());
+        // printArr(gradesArr.getMin());
 
-        printArr(gradesArr.getAvgPerStudent());
-        gradesArr.outputBarChart();
+        // printArr(gradesArr.getAvgPerStudent());
+        // gradesArr.outputBarChart();
+
+        Arr arr = new Arr();
+        arr.foo();
+        Table table = new Table();
+        table.init();
+
     }
     public static void printArr(Object o){
         if (o instanceof int[]){
