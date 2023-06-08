@@ -1,2 +1,2 @@
-# JHTP-chapter07
-repo for chapter 7 in jhtp book
+# JHTP
+repo for miscelaneous chapters in jhtp book
