@@ -1,0 +1,3 @@
+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
+
+git remote set-url origin https://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@github.com/5miiss/JHTP-chapter07.git
